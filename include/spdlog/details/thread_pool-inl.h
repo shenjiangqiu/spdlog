@@ -118,7 +118,7 @@ bool SPDLOG_INLINE thread_pool::process_next_msg_()
     }
 
     default: {
-        assert(false);
+        throw false;assert(false);
     }
     }
 
